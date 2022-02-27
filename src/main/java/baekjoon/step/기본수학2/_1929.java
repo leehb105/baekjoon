@@ -8,7 +8,6 @@ public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int input1 = sc.nextInt();
 		int input2 = sc.nextInt();
-		//if(input1 <= 1) return;
 
 		//true 면 소수
 		boolean []arr = new boolean[input2+1];
