@@ -1,4 +1,4 @@
-package baekjoon.step.재귀;
+package baekjoon.recusion;
 
 import java.util.Scanner;
 

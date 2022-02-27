@@ -1,4 +1,4 @@
-package baekjoon.step.정렬;
+package baekjoon.sorting;
 
 import java.util.Scanner;
 
