@@ -6,6 +6,8 @@ public class _18258 {
 		// TODO Auto-generated method stub
 
 	}
+	
+	
 
 }
 //push X: 정수 X를 큐에 넣는 연산이다.
