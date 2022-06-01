@@ -3,9 +3,32 @@ package baekjoon.step.함수;
 public class _4673 {
 
 	public static void main(String[] args) {
-
+		boolean[] arr =  new boolean[10001];
+		for(int i = 1; i < 10001; i++) {
+			int num = d(i);
+			
+			if(num < 10001) {
+				arr[num] = true;
+			}
+			
+		}
+		StringBuilder sb = new StringBuilder();
+		for(int i = 1; i < arr.length; i++) {
+			if(!arr[i]) {
+				sb.append(i).append("\n");
+				
+			}
+		}
+		System.out.println(sb);
 	}
-
+	static int d(int num) {
+		int result = num;
+		while(num != 0) {
+			result += num % 10;
+			num /= 10;
+		}
+		return result;
+	}
 }
 /**
  * 
