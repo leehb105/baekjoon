@@ -1,4 +1,4 @@
-package baekjoon.sorting;
+package baekjoon.정렬;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

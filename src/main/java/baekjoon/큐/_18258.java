@@ -1,4 +1,4 @@
-package baekjoon.queue;
+package baekjoon.큐;
 
 public class _18258 {
 

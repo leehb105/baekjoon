@@ -1,21 +1,20 @@
-package baekjoon.recusion;
+package baekjoon.재귀;
 
 import java.util.Scanner;
 
-public class _2447 {
+public class _10872 {
 	public  int Fact(int num) {
-//		if() {
-//			return 1;
-//		}
+		if(num == 1 || num == 0) {
+			return 1;
+		}
 		return num * Fact(num-1);
 	}
 	public static void main(String[] args) {
 	
 		Scanner sc = new Scanner(System.in);
-		_2447 m = new _2447();
+		_10872 m = new _10872();
 		
-//		System.out.println(m.Fact(3));
-		m.Fact(sc.nextInt());
+		System.out.println(m.Fact(sc.nextInt()));
 
 	}
 }
