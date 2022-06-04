@@ -55,6 +55,9 @@ public class Sort {
 			arr[prev + 1] = target; //탐색 종료지점에 target대입
 		}
 	}
+	public void heapSord(int[] arr) {
+		
+	}
 	
 	//두 수의 위치를 바꿔주는 메소드
 	public void swap(int[] arr, int i, int j) {
