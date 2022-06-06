@@ -22,6 +22,7 @@ public class _2751 {
 		for(int i : arr) {
 			sb.append(i).append("\n");
 		}
+		
 //		bw.write(sb.toString());
 //		bw.flush();
 //		bw.close();
