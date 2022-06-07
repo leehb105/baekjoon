@@ -112,6 +112,9 @@ public class Sort {
 			else return;
 		}
 	}
+	public void mergeSort(int[] arr) {
+		
+	}
 		
 	//두 수의 위치를 바꿔주는 메소드
 	public void swap(int[] arr, int i, int j) {
