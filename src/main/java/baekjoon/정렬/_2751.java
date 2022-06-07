@@ -90,9 +90,9 @@ public class _2751 {
 	}
 	
 	//두 수의 위치를 바꿔주는 메소드
-		static void swap(int[] arr, int i, int j) {
-			int temp = arr[i];
-			arr[i] = arr[j];
-			arr[j] = temp;
-		}
+	static void swap(int[] arr, int i, int j) {
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+	}
 }
